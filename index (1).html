@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Consent Form - Hatch Stamping Company</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; text-align: center;">
+
+    <img src="hatch_logo.png" alt="Hatch Stamping Company Logo" style="max-width: 300px; margin-bottom: 20px;">
+
+    <h2>Hatch Stamping Company LLC</h2>
+    <h3>SMS Consent Form</h3>
+
+    <form action="#" method="post" style="text-align: left;">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required style="width: 100%; padding: 8px;"><br><br>
+
+        <label for="phone">Mobile Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="e.g., 5551234567" style="width: 100%; padding: 8px;"><br><br>
+
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">
+            I agree to receive automated SMS alerts regarding machine status, robot faults, and maintenance downtime from Hatch Stamping Company LLC. I understand I can reply STOP at any time to opt out.
+        </label><br><br>
+
+        <button type="submit" style="padding: 10px 20px;">Submit</button>
+    </form>
+
+    <p style="font-size: 0.9em; color: gray; margin-top: 20px;">
+        We respect your privacy. Your information will not be shared or sold. View our 
+        <a href="https://www.hatchstamping.com/privacy" target="_blank">Privacy Policy</a>.
+    </p>
+</body>
+</html>
